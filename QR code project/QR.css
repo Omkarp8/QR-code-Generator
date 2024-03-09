@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(143, 98, 98);
+    background-image: linear-gradient(60deg,#f3e7e9,#e3eeff);
 }
 
 .container{
@@ -14,8 +14,8 @@ body{
     left: 32%;
     /* background-color:whitesmoke; */
     border-radius: 10px;
-    border: 2px solid white;
-    background-image: linear-gradient(45deg ,black,white);
+    border: 2px solid black;
+    background-image: linear-gradient(62deg ,#8Ec5fc,#E0c3Fc);
 }
 
 .container p{
@@ -85,16 +85,38 @@ body{
     /* transform-box: 20%; */
 }
 
- /* .img{
-        max-width: 0;
-        
-        /* overflow: hidden; *
+.navBar{
 
-} */
-/*#img.Show-img{
+    position: sticky;
+    top: 0;
+}
 
-     max-height: 300px; 
-    max-height: 300px;
-    margin:10px auto;
-    border:1px solid re
-}*/
+.navBar li {
+    
+    color: aliceblue;
+    list-style: none;
+    /* padding: 10px; */
+    margin: 13px 20px;
+}
+.navBar ul{
+    
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    
+}
+
+.navBar a{
+    
+    text-decoration: none;
+    color: whitesmoke ;
+    position: relative;
+    top: 0;
+    left: 1080px;
+}
+.logo{
+
+    padding: 2px 2px;
+
+}
